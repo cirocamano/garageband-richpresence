@@ -12,7 +12,7 @@ python main.py
 
 GarageBand and Discord Desktop must be running. Your terminal also needs macOS Accessibility permission.
 
-## Before submitting a pull requestç
+## Before submitting a pull request
 
 Keep changes small and focused.
 Do not commit tokens, secrets, .env, or .venv.
