@@ -1,10 +1,10 @@
-# GarageBand Rich Presence
+# GarageBand / Logic Pro Rich Presence
 
-Shows your current GarageBand project as a Discord Rich Presence status.
+Shows your current GarageBand or Logic Pro project as a Discord Rich Presence status.
 
 ## Requirements
 
-- macOS with GarageBand
+- macOS with GarageBand or Logic Pro
 - Discord Desktop
 - Python 3
 
@@ -18,13 +18,13 @@ pip install -r requirements.txt
 
 ## macOS permission
 
-The script reads the GarageBand window title to find the project name. Allow
+The script reads the DAW window title to find the project name. Allow
 your terminal app under **System Settings > Privacy & Security > Accessibility**.
 macOS may also request permission to control **System Events**.
 
 ## Usage
 
-Open Discord Desktop and GarageBand, then run:
+Open Discord Desktop and GarageBand or Logic Pro, then run:
 
 ```bash
 source .venv/bin/activate
